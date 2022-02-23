@@ -1,0 +1,513 @@
+{
+    "stats": {
+        "strength": "",
+        "influence": "",
+        "resources": "",
+        "strategy": "",
+        "security": ""
+    },
+    "agendas": [
+        "Play to find out what happened during the 4th Corperate War",
+        "Fufill our fiscal obligations to maximaze stock values",
+        "Blow up the fucking world"
+    ],
+    "players": {
+        "Narpus": "ESA",
+        "Colonel Mustard": "NuNasa",
+        "MrGingerson": "BTEC",
+        "aka_conner": "OTEC",
+        "kadenj95": "MTEC",
+        "OffDaChain": "ARA",
+        "TheVerendus": "SOIL",
+        "Andrew_1107": "CINO",
+        "holly_harroun": "ARA"
+    },
+    "stock history": [
+        "{\"ARA\": 3037, \"MTEC\": 2084, \"CINO\": 220, \"OTEC\": 195, \"ESA\": 560, \"NuNasa\": 755, \"BTEC\": 75, \"SOIL\": 54}",
+        "{\"ARA\": 3037, \"MTEC\": 2084, \"CINO\": 220, \"OTEC\": 195, \"ESA\": 560, \"NuNasa\": 755, \"BTEC\": 75, \"SOIL\": 54}",
+        "{\"ARA\": 3645, \"MTEC\": 1711, \"CINO\": 220, \"OTEC\": 195, \"ESA\": 560, \"NuNasa\": 745, \"BTEC\": 75, \"SOIL\": 54}",
+        "{\"ARA\": 3683, \"MTEC\": 1736, \"CINO\": 220, \"OTEC\": 195, \"ESA\": 560, \"NuNasa\": 745, \"BTEC\": 81, \"SOIL\": 54}",
+        "{\"ARA\": 3984, \"MTEC\": 1511, \"CINO\": 220, \"OTEC\": 195, \"ESA\": 560, \"NuNasa\": 755, \"BTEC\": 81, \"SOIL\": 54}",
+        "{\"ARA\": 4464, \"MTEC\": 1248, \"CINO\": 295, \"OTEC\": 195, \"ESA\": 560, \"NuNasa\": 755, \"BTEC\": 81, \"SOIL\": 54}",
+        "{\"ARA\": 4558, \"MTEC\": 1248, \"CINO\": 295, \"OTEC\": 195, \"ESA\": 560, \"NuNasa\": 755, \"BTEC\": 81, \"SOIL\": 54}",
+        "{\"ARA\": 3500, \"MTEC\": 1800, \"CINO\": 295, \"OTEC\": 195, \"ESA\": 560, \"NuNasa\": 755, \"BTEC\": 81, \"SOIL\": 54}",
+        "{\"ARA\": 3455, \"MTEC\": 1764, \"CINO\": 294, \"OTEC\": 195, \"ESA\": 564, \"NuNasa\": 759, \"BTEC\": 80, \"SOIL\": 54}",
+        "{\"ARA\": 3222, \"MTEC\": 2290, \"CINO\": 296, \"OTEC\": 195, \"ESA\": 564, \"NuNasa\": 759, \"BTEC\": 80, \"SOIL\": 54}",
+        "{\"ARA\": 3637, \"MTEC\": 2290, \"CINO\": 296, \"OTEC\": 195, \"ESA\": 564, \"NuNasa\": 759, \"BTEC\": 80, \"SOIL\": 54}",
+        "{\"ARA\": 3837, \"MTEC\": 2290, \"CINO\": 296, \"OTEC\": 195, \"ESA\": 564, \"NuNasa\": 759, \"BTEC\": 80, \"SOIL\": 54}",
+        "{\"ARA\": 8784, \"MTEC\": 505, \"CINO\": 296, \"OTEC\": 195, \"ESA\": 564, \"NuNasa\": 0, \"BTEC\": 80, \"SOIL\": 54}",
+        "{\"ARA\": 8784, \"MTEC\": 505, \"CINO\": 296, \"OTEC\": 195, \"ESA\": 564, \"NuNasa\": 745, \"BTEC\": 80, \"SOIL\": 54}",
+        "{\"ARA\": 8784, \"MTEC\": 505, \"CINO\": 511, \"OTEC\": 195, \"ESA\": 564, \"NuNasa\": 745, \"BTEC\": 80, \"SOIL\": 54}",
+        "{\"ARA\": 8784, \"MTEC\": 505, \"CINO\": 511, \"OTEC\": 275, \"ESA\": 564, \"NuNasa\": 745, \"BTEC\": 80, \"SOIL\": 54}",
+        "{\"ARA\": 9031, \"MTEC\": 479, \"CINO\": 505, \"OTEC\": 259, \"ESA\": 564, \"NuNasa\": 745, \"BTEC\": 72, \"SOIL\": 57}",
+        "{\"ARA\": 9031, \"MTEC\": 479, \"CINO\": 505, \"OTEC\": 259, \"ESA\": 564, \"NuNasa\": 745, \"BTEC\": 72, \"SOIL\": 57}",
+        "{\"ARA\": 9031, \"MTEC\": 580, \"CINO\": 505, \"OTEC\": 259, \"ESA\": 564, \"NuNasa\": 745, \"BTEC\": 72, \"SOIL\": 57}",
+        "{\"ARA\": 9031, \"MTEC\": 580, \"CINO\": 505, \"OTEC\": 259, \"ESA\": 764, \"NuNasa\": 745, \"BTEC\": 72, \"SOIL\": 57}",
+        "{\"ARA\": 9031, \"MTEC\": 580, \"CINO\": 505, \"OTEC\": 259, \"ESA\": 764, \"NuNasa\": 755, \"BTEC\": 72, \"SOIL\": 57}",
+        "{\"ARA\": 9031, \"MTEC\": 580, \"CINO\": 505, \"OTEC\": 259, \"ESA\": 764, \"NuNasa\": 755, \"BTEC\": 72, \"SOIL\": 57}",
+        "{\"ARA\": 9031, \"MTEC\": 580, \"CINO\": 550, \"OTEC\": 259, \"ESA\": 764, \"NuNasa\": 755, \"BTEC\": 72, \"SOIL\": 57}",
+        "{\"ARA\": 9031, \"MTEC\": 580, \"CINO\": 550, \"OTEC\": 259, \"ESA\": 764, \"NuNasa\": 755, \"BTEC\": 72, \"SOIL\": 57}",
+        "{\"ARA\": 8779, \"MTEC\": 775, \"CINO\": 675, \"OTEC\": 315, \"ESA\": 771, \"NuNasa\": 755, \"BTEC\": 72, \"SOIL\": 57}",
+        "{\"ARA\": 9001, \"MTEC\": 775, \"CINO\": 675, \"OTEC\": 315, \"ESA\": 771, \"NuNasa\": 745, \"BTEC\": 72, \"SOIL\": 57}",
+        "{\"ARA\": 9001, \"MTEC\": 775, \"CINO\": 675, \"OTEC\": 315, \"ESA\": 771, \"NuNasa\": 745, \"BTEC\": 72, \"SOIL\": 57}",
+        "{\"ARA\": 9001, \"MTEC\": 775, \"CINO\": 675, \"OTEC\": 315, \"ESA\": 771, \"NuNasa\": 669, \"BTEC\": 72, \"SOIL\": 57}",
+        "{\"ARA\": 0, \"MTEC\": 0, \"CINO\": 0, \"OTEC\": 0, \"ESA\": 0, \"NuNasa\": 0, \"BTEC\": 0, \"SOIL\": 0}",
+        "{\"ARA\": 1, \"MTEC\": 1, \"CINO\": 1, \"OTEC\": 1, \"ESA\": 1, \"NuNasa\": 1, \"BTEC\": 1, \"SOIL\": 1}",
+        "{\"ARA\": 0, \"MTEC\": 11, \"CINO\": 11, \"OTEC\": 11, \"ESA\": 11, \"NuNasa\": 11, \"BTEC\": 11, \"SOIL\": 0}",
+        "{\"ARA\": 11, \"MTEC\": 22, \"CINO\": 12, \"OTEC\": 12, \"ESA\": 12, \"NuNasa\": 12, \"BTEC\": 12, \"SOIL\": 11}",
+        "{\"ARA\": 9, \"MTEC\": 27, \"CINO\": 15, \"OTEC\": 15, \"ESA\": 9, \"NuNasa\": 15, \"BTEC\": 15, \"SOIL\": 12}",
+        "{\"ARA\": 9, \"MTEC\": 27, \"CINO\": 15, \"OTEC\": 15, \"ESA\": 9, \"NuNasa\": 15, \"BTEC\": 15, \"SOIL\": 12}",
+        "{\"ARA\": 9, \"MTEC\": 27, \"CINO\": 15, \"OTEC\": 15, \"ESA\": 9, \"NuNasa\": 15, \"BTEC\": 15, \"SOIL\": 12}",
+        "{\"ARA\": 9, \"MTEC\": 0, \"CINO\": 15, \"OTEC\": 15, \"ESA\": 9, \"NuNasa\": 15, \"BTEC\": 15, \"SOIL\": 12}",
+        "{\"ARA\": 10, \"MTEC\": 0, \"CINO\": 15, \"OTEC\": 15, \"ESA\": 10, \"NuNasa\": 15, \"BTEC\": 15, \"SOIL\": 12}",
+        "{\"ARA\": 0, \"MTEC\": 0, \"CINO\": 10, \"OTEC\": 10, \"ESA\": 0, \"NuNasa\": 10, \"BTEC\": 10, \"SOIL\": 10}",
+        "{\"ARA\": 0, \"MTEC\": 0, \"CINO\": 10, \"OTEC\": 10, \"ESA\": 0, \"NuNasa\": 11, \"BTEC\": 10, \"SOIL\": 10}",
+        "{\"ARA\": -10000, \"MTEC\": 0, \"CINO\": 0, \"OTEC\": 10, \"ESA\": 0, \"NuNasa\": 0, \"BTEC\": 10, \"SOIL\": 10}"
+    ],
+    "voices": {
+        "ARA": "dio",
+        "MTEC": "hank-hill",
+        "CINO": "john-lennon",
+        "OTEC": "the-rock",
+        "ESA": "elon-musk",
+        "NuNasa": "jfk-clone-high",
+        "BTEC": "scott-the-woz",
+        "SOIL": "gru"
+    },
+    "Sxx": {
+        "ARA_MTEC": 1,
+        "ARA_CINO": 2,
+        "ARA_OTEC": 0,
+        "ARA_ESA": 2,
+        "ARA_NuNasa": 0,
+        "ARA_BTEC": 1,
+        "ARA_SOIL": 0,
+        "CINO_MTEC": 0,
+        "MTEC_OTEC": 0,
+        "ESA_MTEC": 0,
+        "MTEC_NuNasa": 1,
+        "BTEC_MTEC": 0,
+        "MTEC_SOIL": 0,
+        "CINO_OTEC": -1,
+        "CINO_ESA": 0,
+        "CINO_NuNasa": 0,
+        "BTEC_CINO": 0,
+        "CINO_SOIL": 0,
+        "ESA_OTEC": 0,
+        "NuNasa_OTEC": 0,
+        "BTEC_OTEC": 0,
+        "OTEC_SOIL": 0,
+        "ESA_NuNasa": -1,
+        "BTEC_ESA": 0,
+        "ESA_SOIL": 0,
+        "BTEC_NuNasa": 0,
+        "BTEC_SOIL": 1,
+        "NuNasa_SOIL": 0,
+        "aliases": {
+            "ARA": {
+                "MTEC": "ARA_MTEC",
+                "CINO": "ARA_CINO",
+                "OTEC": "ARA_OTEC",
+                "ESA": "ARA_ESA",
+                "NuNasa": "ARA_NuNasa",
+                "BTEC": "ARA_BTEC",
+                "SOIL": "ARA_SOIL"
+            },
+            "MTEC": {
+                "ARA": "ARA_MTEC",
+                "CINO": "CINO_MTEC",
+                "OTEC": "MTEC_OTEC",
+                "ESA": "ESA_MTEC",
+                "NuNasa": "MTEC_NuNasa",
+                "BTEC": "BTEC_MTEC",
+                "SOIL": "MTEC_SOIL"
+            },
+            "CINO": {
+                "ARA": "ARA_CINO",
+                "MTEC": "CINO_MTEC",
+                "OTEC": "CINO_OTEC",
+                "ESA": "CINO_ESA",
+                "NuNasa": "CINO_NuNasa",
+                "BTEC": "BTEC_CINO",
+                "SOIL": "CINO_SOIL"
+            },
+            "OTEC": {
+                "ARA": "ARA_OTEC",
+                "MTEC": "MTEC_OTEC",
+                "CINO": "CINO_OTEC",
+                "ESA": "ESA_OTEC",
+                "NuNasa": "NuNasa_OTEC",
+                "BTEC": "BTEC_OTEC",
+                "SOIL": "OTEC_SOIL"
+            },
+            "ESA": {
+                "ARA": "ARA_ESA",
+                "MTEC": "ESA_MTEC",
+                "CINO": "CINO_ESA",
+                "OTEC": "ESA_OTEC",
+                "NuNasa": "ESA_NuNasa",
+                "BTEC": "BTEC_ESA",
+                "SOIL": "ESA_SOIL"
+            },
+            "NuNasa": {
+                "ARA": "ARA_NuNasa",
+                "MTEC": "MTEC_NuNasa",
+                "CINO": "CINO_NuNasa",
+                "OTEC": "NuNasa_OTEC",
+                "ESA": "ESA_NuNasa",
+                "BTEC": "BTEC_NuNasa",
+                "SOIL": "NuNasa_SOIL"
+            },
+            "BTEC": {
+                "ARA": "ARA_BTEC",
+                "MTEC": "BTEC_MTEC",
+                "CINO": "BTEC_CINO",
+                "OTEC": "BTEC_OTEC",
+                "ESA": "BTEC_ESA",
+                "NuNasa": "BTEC_NuNasa",
+                "SOIL": "BTEC_SOIL"
+            },
+            "SOIL": {
+                "ARA": "ARA_SOIL",
+                "MTEC": "MTEC_SOIL",
+                "CINO": "CINO_SOIL",
+                "OTEC": "OTEC_SOIL",
+                "ESA": "ESA_SOIL",
+                "NuNasa": "NuNasa_SOIL",
+                "BTEC": "BTEC_SOIL"
+            }
+        }
+    },
+    "corps": {
+        "corp_template": {
+            "name": "",
+            "symbol": "",
+            "strenght": 0,
+            "influence": 0,
+            "resources": 0,
+            "strategy": 0,
+            "security": 0,
+            "company_head": "",
+            "hq": "",
+            "background": ""
+        },
+        "corp_list": [
+            "ARA",
+            "MTEC",
+            "CINO",
+            "OTEC",
+            "ESA",
+            "NuNasa",
+            "BTEC",
+            "SOIL"
+        ],
+        "ARA": {
+            "name": "Arasaka",
+            "symbol": "ARA",
+            "strenght": 3,
+            "influence": 2,
+            "resources": 4,
+            "strategy": 1,
+            "security": 0,
+            "company_head": "Saburo Arasaka",
+            "hq": "Tokyo, Japan",
+            "background": "The Arasaka Corporation maintains the largest and most powerful armed forces of any corporation in the world, with their guards renowned worldwide and feared by many. Most firms will look to licensing from Arasaka corporate security guards, couriers, or mercenaries to protect their assets. However, Arasaka assets take priority if they are at risk and the troops themselves are loyal to death to the Japanese conglomerate."
+        },
+        "MTEC": {
+            "name": "Militech International",
+            "symbol": "MTEC",
+            "strenght": 2,
+            "influence": 3,
+            "resources": 3,
+            "strategy": 1,
+            "security": 2,
+            "company_head": "General Donald Lundee",
+            "hq": "Washington D.C., NUSA",
+            "background": "Militech International Armaments is a megacorporation specializing in weapons manufacturing and private military contracting. Militech is one of the world's largest manufacturers of weapons and military vehicles, with facilities on every continent."
+        },
+        "CINO": {
+            "name": "Corporation Internatinoale Nauticale et Oceanique",
+            "symbol": "CINO",
+            "strenght": 0,
+            "influence": 1,
+            "resources": 5,
+            "strategy": 3,
+            "security": 2,
+            "company_head": "Peter Nicholas",
+            "hq": "Le Havre, France",
+            "background": "Originally a British shipping firm, CINO deals mainly in the construction of shipping vessels and related navigation and shipping equipment. This is done at their huge dry-dock facility in Le Havre, or at Marseilles. They have modest krill processing centers, a few sea farms, and dozens of undersea research labs. For 10 years they've been unsuccessfully struggling to break into nautitech."
+        },
+        "OTEC": {
+            "name": "Ocean Technology & Energy Corporation",
+            "symbol": "OTEC",
+            "strenght": 1,
+            "influence": 2,
+            "resources": 5,
+            "strategy": 2,
+            "security": 0,
+            "company_head": "Amanda Russell",
+            "hq": "AquaDelphi, Hawaiian Islands",
+            "background": "OTEC is an American Aquacorp that specializes in underwater shipping and technology services around the Pacific Rim. They recently failed a mission to recover Nautitech from a collapsed corperation CINO, which has drawn the attention of the world's most powerful corporations, including rival corporations CINO."
+        },
+        "ESA": {
+            "name": "European Space Agency",
+            "symbol": "ESA",
+            "strenght": 2,
+            "influence": 0,
+            "resources": 6,
+            "strategy": 3,
+            "security": 0,
+            "company_head": "Dr. John Glenn",
+            "hq": "Troms\u00c3\u00b8, Norway",
+            "background": "The European Space Agency is a private space program that provides orbital shipping and lunar mining for other corperations. Recent rumors indicate they have developed Orbital Artilery (Ortilery) technology."
+        },
+        "NuNasa": {
+            "name": "NuNasa",
+            "symbol": "NuNasa",
+            "strenght": 1,
+            "influence": 2,
+            "resources": 6,
+            "strategy": 2,
+            "security": 1,
+            "company_head": "James W. Paine",
+            "hq": "Dallas, NUSA",
+            "background": "NuNasa is a NUSA corporation that specializes in the construction of space stations and other space related facilities. While they do not have the advanced technology of the ESA, they have the ability to build space stations in a matter of hours."
+        },
+        "BTEC": {
+            "name": "Biotechnica",
+            "symbol": "BTEC",
+            "strenght": 2,
+            "influence": 0,
+            "resources": 6,
+            "strategy": 3,
+            "security": 2,
+            "company_head": "Nicolo Loggagia",
+            "hq": "Night City, Night City",
+            "background": "Biotechnica is a relatively small corporation. It created Triticum vulgaris megasuavis, the genus of wheat that is refined into the synthetic grain alcohol/fuel CHOOH2. Biotechnica has been offering free healthcare in select targeted areas to rehabilitate their image after causing the Boston Carbon Plauge of 2019. Biotechnica offers its employees up to six paid vacation days a year."
+        },
+        "SOIL": {
+            "name": "SovOil",
+            "symbol": "SOIL",
+            "strenght": 0,
+            "influence": 1,
+            "resources": 3,
+            "strategy": 1,
+            "security": 2,
+            "company_head": "Anatoly Novikova",
+            "hq": "Moscow, Soviet Union",
+            "background": "Soviet World Oil Industries, known best in the west by the contraction SovOil and the acronym SGKP in the USSR, is a petrochemical corporation headquartered in the Soviet Union. SovOil, being the richest company in the Soviet Union, uses its economic power to manipulate and ultimately control the Soviet government."
+        }
+    },
+    "moves": {
+        "ults enabled": true,
+        "move_template": {
+            "name": "",
+            "stat": "",
+            "description": "",
+            "effect": ""
+        },
+        "basic moves": {
+            "revenue": {
+                "name": "Take Revenue",
+                "stat": "resources",
+                "description": "Collect cash to increasse increase your resources +1",
+                "effect": ""
+            },
+            "stock buyback": {
+                "name": "Buy Back Stock",
+                "stat": "influnce",
+                "description": "Buy back stock to increase your stock price, lose 1 resource",
+                "effect": ""
+            },
+            "damage corp": {
+                "name": "Damage Corp",
+                "stat": "strength",
+                "description": "Attack another corperation to damage it, roll against their security roll to reduce their resources -1",
+                "effect": ""
+            },
+            "corperate ally": {
+                "name": "Corperate Ally",
+                "stat": "influence",
+                "description": "Ally with a corporation to increase increase your Sxx with +1. Can only be used once per corperate ally.",
+                "effect": ""
+            },
+            "r&d": {
+                "name": "R&D",
+                "stat": "strategy",
+                "description": "Develop a new product to increase your resources",
+                "effect": ""
+            }
+        },
+        "ARA moves": {
+            "NET attack": {
+                "name": "NET attack",
+                "stat": "strength",
+                "description": "Attack another corperation with your expert netrunners. Roll above their security to greatly lower their strength -2",
+                "effect": ""
+            },
+            "exclusive ally": {
+                "name": "Exclusive Ally",
+                "stat": "influence",
+                "description": "Ally with a corporation to increase your Sx stat with them to +2. They reset their Sx with all other partners to 0",
+                "effect": ""
+            }
+        },
+        "MTEC moves": {
+            "ground invasion": {
+                "name": "Ground Invasion",
+                "stat": "strength",
+                "description": "Invade a region to damage a corp in the region once a round. You still have to roll above their security every round.",
+                "effect": ""
+            },
+            "Arms race": {
+                "name": "Exclusive Ally",
+                "stat": "influence",
+                "description": "Spend 1 resources to arm an ally. Your ally can increase their strength or their security +1. On fail, you still lose 1 resource.",
+                "effect": ""
+            }
+        },
+        "CINO moves": {
+            "burried treasure": {
+                "name": "Burried Treasure",
+                "stat": "strategy",
+                "description": "Retrieve a buried treasure to increase your resources +2 your next turn. If you are damaged before your next turn, you do not get the treasure.",
+                "effect": ""
+            },
+            "transport cargo": {
+                "name": "Transport Cargo",
+                "stat": "resources",
+                "description": "If two corps (which could include you) agree, move up to 2 resources from one corp to another. If you are damaged before your next turn, the resources are lost.",
+                "effect": ""
+            }
+        },
+        "OTEC moves": {
+            "hunter kriller drones": {
+                "name": "Hunter Kriller Drones",
+                "stat": "strategy",
+                "description": "Deploy robotic krill to harm a corporation. You do not need to roll, but you do lose 1 resource.",
+                "effect": ""
+            },
+            "transport cargo": {
+                "name": "Transport Cargo",
+                "stat": "resources",
+                "description": "If two corps (which could include you) agree, move up to 2 resources from one corp to another. If you are damaged before your next turn, the resources are lost.",
+                "effect": ""
+            }
+        },
+        "ESA moves": {
+            "collect lunar payload": {
+                "name": "Collect Lunar Payload",
+                "stat": "resources",
+                "description": "Mine moonrock to increase your resources +2",
+                "effect": ""
+            },
+            "orbitit strike": {
+                "name": "Orbitit Strike",
+                "stat": "strength",
+                "description": "Spend 3 resources to strike another corp from orbit. Decrease their resources by 3.",
+                "effect": ""
+            }
+        },
+        "NuNasa moves": {
+            "Construct space station": {
+                "name": "Construct space station",
+                "stat": "resources",
+                "description": "Construct a space station to house more highriders. You do not need to roll, increase your resources +1",
+                "effect": ""
+            },
+            "orbital supply chain": {
+                "name": "Orbital Supply Chain",
+                "stat": "strategy",
+                "description": "If two corps (which could include you) agree, you can move up to your number of resources from one corp to another. If you fail, the resources are lost and you lose 1 resource.",
+                "effect": ""
+            }
+        },
+        "SOIL moves": {
+            "hyperfrack region": {
+                "name": "Hyperfrack Region",
+                "stat": "resources",
+                "description": "Pump out a region to increase your resources +3. You can only Hyperfrack a region once per round",
+                "effect": ""
+            },
+            "fuel supply chain": {
+                "name": "Fuel Supply Chain",
+                "stat": "influence",
+                "description": "Spend 1 resource to increase another corp's resource +2. Your Sxx with them is increased +1",
+                "effect": ""
+            }
+        },
+        "BTEC moves": {
+            "Spittin CHOOH2": {
+                "name": "Spittin CHOOH2",
+                "stat": "strategy",
+                "description": "Synthesize CHOOH2 to increase your resources +3",
+                "effect": ""
+            },
+            "Army of the Borgs": {
+                "name": "Army of the Borgs",
+                "stat": "strength",
+                "description": "Spend 2 resources to increase any corp's security or strength +2",
+                "effect": ""
+            }
+        },
+        "ultimate products": {
+            "ARA": {
+                "ult": {
+                    "name": "DataKrash",
+                    "stat": "ULT",
+                    "description": "Krash the NET"
+                }
+            },
+            "MTEC": {
+                "ult": {
+                    "name": "Drop The Fusion Bomb",
+                    "stat": "ULT",
+                    "description": "Death falls"
+                }
+            },
+            "OTEC": {
+                "ult": {
+                    "name": "Relese the C MONSTER FLEET",
+                    "stat": "ULT",
+                    "description": "Apex Predator drones"
+                }
+            },
+            "CINO": {
+                "ult": {
+                    "name": "Acid Ocean",
+                    "stat": "ULT",
+                    "description": "Burn the seas"
+                }
+            },
+            "ESA": {
+                "ult": {
+                    "name": "Keslar Syndrome",
+                    "stat": "ULT",
+                    "description": "If you can't have it, nobody can"
+                }
+            },
+            "NuNasa": {
+                "ult": {
+                    "name": "Highrider Revolt",
+                    "stat": "ULT",
+                    "description": "Freedom is a lie, but not for the next 7 hours"
+                }
+            },
+            "BTEC": {
+                "ult": {
+                    "name": "Relese Carbon Plauge",
+                    "stat": "ULT",
+                    "description": "I'll fucking do it again"
+                }
+            },
+            "SOIL": {
+                "ult": {
+                    "name": "The Great Collapse",
+                    "stat": "ULT",
+                    "description": "You die for the state, the state dies for you"
+                }
+            }
+        },
+        "ultimates enabled": true
+    }
+}

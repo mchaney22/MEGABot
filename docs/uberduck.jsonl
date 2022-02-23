@@ -1,0 +1,8 @@
+{"text": "USAGE: /quack <voice> <speech text>"}
+{"text": "EXAMPLE: /quack eminem I'm Slim Shady yes I'm, the real Shady."}
+{"text": "USAGE: /randquack <speech text>"}
+{"text": "EXAMPLE: /randquack Say this in a random voice."}
+{"text": "USAGE: /vcquack <voice> <speech text>"}
+{"text": EXAMPLE: /vcquack trebek Say this over voice chat."}
+{"text": "USAGE: /vcrandquack <speech text>"}
+{"text": "EXAMPLE: /vcrandquack Say this over voice chat in a random voice."}
